@@ -1,34 +1,76 @@
 body {
     margin: 0px;
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar-wrapper {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: [logo-s] 280px [logo-e collections-s] 1fr [collections-e right-side-s] 1fr [right-side-e];
+    justify-content: space-around;
     background-color: black;
     height: 100px;
     padding: 0px;
     color: #fff;
     align-items: center;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
 }
 
 
 .codepen-logo img{
-    display: flex;
+    /* display: flex; */
+    margin-left: 25px;
     height: 35px;
-    width: 160px;
+    width: 170px;
     align-content: center;
-    margin-left: 15px;
+    /* margin-left: 25px; */
 
 }
 
+
+.collections {
+    display: grid;
+    grid-template-rows: [explore-s] 50px [explore-e links-s] 50px [links-e];
+
+    /* align-items: center; */
+    flex-direction: column;
+    font-size: 17px;
+}
+
+.links-wrapper {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: start;
+}
 
 .explore {
+    color: #ffdd40;
+    text-transform: uppercase;
     display: flex;
+    justify-content: flex-start;
+    /* align-items: end; */
+}
+
+.nav-link-wrapper {
+    margin-right: 25px;
+    font-weight: 800;
+}
+
+.spark {
+    color: #9ca0b1;
+}
+
+
+.right-side {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: [create-s] 1fr[create-e search-s] 1fr [search-e login-s] 1fr [login-e signup-s] 1fr [signup-e];
     justify-content: space-around;
+    align-items: center;
 }
 
-i {
-    color: #fff;
+.search-icon {
+    align-content: center;
+    justify-content: center;
+    display: grid;
 }
-

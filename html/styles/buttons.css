@@ -1,0 +1,51 @@
+.login-btn {
+    height: 65px;
+    width: 90px;
+    background-color: #444857;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    /* padding: 10px, 16px; */
+    border: none;
+    border-radius: 5px;
+    outline: none;    
+}
+
+.signup-btn {
+    height: 65px;
+    width: 100px;
+    background-color: #444857;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    /* padding: 10px, 16px; */
+    border: none;
+    border-radius: 5px;
+    outline: none;  
+}
+
+.create-btn {
+    align-content: center;
+    justify-content: center;
+    height: 65px;
+    width: 120px;
+    background-color: #444857;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    /* padding: 10px, 16px; */
+    border: none;
+    border-radius: 5px;
+    outline: none;   
+}
+
+/* .create-btn > i {
+    display: flex;
+    align-content: center;
+} */
+
+/* .buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+} */
