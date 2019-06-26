@@ -71,9 +71,14 @@
 
 .codepen-projects {
     color: white;
-
+    margin-left: 50px;
 }
 
 .blue-text {
     color: #0ebeff;
+}
+
+.codpen-image {
+    height: 700px;
+    width: 547px;
 }

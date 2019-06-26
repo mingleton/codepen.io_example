@@ -1,0 +1,56 @@
+.footer {
+    height: 150px;
+    color: black;
+    display: grid;
+    grid-template-rows: [footer-btn-wrapper-s] 80px [footer-btn-wrapper-e] 70px;
+}
+
+.footer-btn-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.teams {
+    background-color: #444857;
+    color: white;
+    font-size: 18px;
+}
+
+.teams-bold {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.education {
+    background-color: #444857;
+    color: white;
+    font-size: 18px;
+}
+
+.education-bold {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.privacy {
+    background-color: #444857;
+    color: white;
+    font-size: 18px;
+}
+
+.privacy-bold {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.writing {
+    background-color: #444857;
+    color: white;
+    font-size: 18px;
+}
+
+.writing-bold {
+    font-size: 22px;
+    font-weight: bold;
+}
+
